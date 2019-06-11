@@ -35,7 +35,7 @@ figure{
     float: left;
     margin: 0px 0px 10px 10px;
 }nav{
-    background: white;
+    background: rgb(200, 200, 200);
     box-shadow: 0 2px 0 0 #ecf1f2;
     border-top: 1px solid #ecf1f2;
     text-align: center;
@@ -73,13 +73,13 @@ nav ul{
 }
 .submenu {
     position: absolute;
-    left: -1px;
-    z-index: 5;
+    right: -1px;
+    z-index: 5 ;
     width: 240px;
-    border-bottom: 1px solid #ecf1f2;
+    border-bottom: 1px solid rgb(200, 200, 200);
     visibility: hidden;
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateX(1px);
     transition: .3s ease-in-out;
 }
 .submenu li {position: relative;}
@@ -103,7 +103,7 @@ nav ul{
 nav li:hover>.submenu{
     visibility: visible;
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(50px);
 }
 
 .button {
