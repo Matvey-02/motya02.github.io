@@ -1,0 +1,61 @@
+body {
+font-family: 'Courier New', Courier, monospace;
+padding-bottom: 5px;
+background-color: rgb(200, 200, 200)
+}
+
+p,ul {
+    padding: 5px 10px 5px 10px;
+    background-color: white !important;
+    opacity: 0.75;
+}
+
+h1 {
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: darkred;
+}
+
+h2 {
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: darkcyan;
+}
+
+video{
+    float: left;
+    margin: 0px 0px 10px 10px;
+}
+
+figure{
+    float: left;
+    margin: 0px 0px 10px 10px;
+}
+
+.button {
+    position: relative;
+    float: right;    
+    right: 10px;
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(105, 105, 105);
+    opacity: 0.75;
+}
+
+.menu {
+    background-color: white !important;
+    opacity: 0.75;
+    display: inline;
+    margin-right: 10px;
+}
+
+.b {
+    list-style-position: inside;
+}
+.top{
+opacity: 0;
+size: 0px;
+}
