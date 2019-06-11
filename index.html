@@ -27,13 +27,39 @@
                         <a href="tb.html">Техника безопасности</a>
                     </li>
                     <li>
-                        <a href="about.html">О нас</a>
+                        <a href="about.html">О сайте</a>
                     </li>
                     </ul>
             </nav>
+            <h2>Главная</h2>
             <p>Данный сайт посвящен компиляторам и интерпретаторам для микроконтроллеров различных популярных
-                языков программирования, таких как JavaScript (проект Espruino), Python (MicroPython) и C (Arduino), которые можно выбрать в верхнем меню.
-                Все проекты open source, Вы можете поддержать их пожертвоваием или присоединиться
+                языков программирования, таких как JavaScript (проект Espruino) и Python (MicroPython), которые можно выбрать в верхнем меню.
+                Все проекты open source, Вы можете поддержать их пожертвоваием или присоединиться. Официальные сайты: <a href="http://www.espruino.com/. ", target="_blank">
+                    espruino.com</a>, <a href="micropython.org", target="_blank">
+                        micropython.org</a>, а также интересный русскоязычный ресурс с документацией 
+                        по MicroPython <a href="micropython-ru.readthedocs.io", target="_blank">
+                                micropython-ru.readthedocs.io</a>
             </p>
+            <p><script language="JavaScript">
+                    i=0;
+                    img_a=new Array()
+                    img_h=new Array()
+                    img_a[0]=new Image()
+                    img_a[1]=new Image()
+                    img_a[2]=new Image()
+                    img_a[0].src="images/Esp.png"
+                    img_a[1].src="images/Ard.png"
+                    img_a[2].src="images/MP.jpg"
+                        function img_b() 
+                            {
+                            document.images[0].src=img_a[i].src
+                            document.images[0].src=img_a[i].src
+                            document.images[0].src=img_a[i].src
+                            i++
+                                if(i>2) i=0;
+                                setTimeout("img_b()", 1500)
+                            }
+                </script>
+</p>
 </body>
 </html>

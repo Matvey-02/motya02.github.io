@@ -8,15 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="top">Главная</h1>
-    <hr />
-    <ul>
-        <li class="menu"><a href="index.html">На главную</a></li>
-        <li class="menu"><a href="about.html">О создателе</a></li>
-        <li class="menu">Техника безопасности</li>
-        <li class="menu"><a href="photocats.html">Фотографии котиков</a></li>
-    </ul>
-    <hr> 
+    <nav>
+        <ul class="topmenu">
+            <li>
+                <a href="index.html" class="active">Главная</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="espruino.html">Espruino</a>
+                    </li>
+                    <li>
+                        <a href="micropython.html">MicroPython
+                            <span class="fa fa-angle-down"></span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="tb.html">Техника безопасности</a>
+            </li>
+            <li>
+                <a href="about.html">О сайте</a>
+            </li>
+            </ul>
+    </nav>
     <p>
         Во время проектирования будьте осторожны при обращении с высоким напряжением. Несоблюдение правил техники безопасности может привести
         к поражению електрическим током. В случае невыполнения вас ждет результат как на этом видео:
