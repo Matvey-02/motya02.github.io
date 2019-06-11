@@ -1,5 +1,6 @@
-body {
-font-family: 'Courier New', Courier, monospace;
+@import
+url(https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillc);body {
+/*font-family: 'Courier New', Courier, monospace;*/
 padding-bottom: 5px;
 background-color: rgb(200, 200, 200)
 }
