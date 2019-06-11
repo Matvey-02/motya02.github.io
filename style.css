@@ -8,6 +8,7 @@ body {
 }
 
 p,ul {
+    font-family: 'Open Sans', sans-serif;
     padding: 5px 10px 5px 10px;
     background-color: white !important;
     opacity: 0.75;
